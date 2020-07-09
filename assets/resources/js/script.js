@@ -64,3 +64,11 @@ $(document).ready(function () {
     });
 });
 
+/************************************************************************************ PRELOADER STARTS */
+
+jQuery(window).load(function() {
+    $('#preloader').fadeOut('slow');
+
+});
+
+
